@@ -14,7 +14,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
     margin: 0;
-    background-color: beige;
+    background-color: rgba(220, 220, 220, 0.557);
 }
 a {
     text-decoration: none;
@@ -1304,7 +1304,6 @@ input {
 .files-page .statistics .s-box .icon-hold {
     width: 50px;
     height: 60px;
-    
     margin-right: 10px;
 }
 .files-page .statistics .blue .icon-hold {
