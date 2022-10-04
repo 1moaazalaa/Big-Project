@@ -1331,5 +1331,6 @@ input {
 }
 .files-page .statistics .s-box .text p {
     font-weight: 500;
+    font-weight: bold;
 }
 /* End files */
