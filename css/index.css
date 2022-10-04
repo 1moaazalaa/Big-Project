@@ -1333,3 +1333,78 @@ input {
     font-weight: bold;
 }
 /* End files */
+/* start plans */
+.plans-page {
+    grid-template-columns: repeat(auto-fill , minmax(360px ,1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.plans-page .item .above {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.plans-page .item .above::before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    border: 3px solid ;
+    top: -5px;
+    left: -5px;
+}
+.plans-page .item .green::before {
+    border-color: var(--green-color);
+}
+.plans-page .item .blue::before {
+    border-color: var(--blue-color);
+}
+.plans-page .item .orange::before {
+    border-color: var(--orange-color);
+}
+.plans-page .item .above h3 {
+    font-size: 30px;
+}
+.plans-page .item .above span {
+    font-size: 40px;
+}
+.plans-page .item .landing .plan {
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+.plans-page .item .landing .plan .right i {
+    margin-right: 10px;
+}
+.plans-page .item .landing .red .right i {
+    color: var(--red-color);
+}
+.plans-page .item .landing .blue .right i {
+    color: var(--blue-color);
+}
+.plans-page .item .landing .plan .left {
+    width: 22px;
+    height: 22px;
+    background-color: gray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: white;
+}
+.plans-page .item .green {
+    background-color: var(--green-color);
+}
+.plans-page .item .blue {
+    background-color: var(--blue-color);
+}
+.plans-page .item .orange {
+    background-color: var(--orange-color);
+}
+.plans-page .item .butt {
+    width: fit-content;
+    padding: 5px 10px;
+    color: white;
+    margin-top: 15px;
+}
+/* End plans */
