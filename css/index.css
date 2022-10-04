@@ -1278,3 +1278,58 @@ input {
     background-color: var(--red-color);
 }
 /* End friends */
+/* start files */
+.files-page {
+    grid-template-columns: repeat(auto-fill , minmax(220px ,1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.files-page .box .photo {
+    text-align: center;
+}
+.files-page  .box .photo img {
+    width: 80px;
+}
+.files-page  .box .fooot {
+    margin-top: 10px;
+    border-top: 1px solid gainsboro;
+    padding-top:10px ;
+} 
+.files-page .statistics .s-box {
+    border: 1px solid gainsboro;
+}
+.files-page .statistics .s-box i {
+    font-size: 25px;
+}
+.files-page .statistics .s-box .icon-hold {
+    width: 50px;
+    height: 60px;
+    
+    margin-right: 10px;
+}
+.files-page .statistics .blue .icon-hold {
+    background-color: #0077ff56;
+} 
+.files-page .statistics .red .icon-hold{
+    background-color: #f4433637;
+    
+}
+.files-page .statistics .red .icon-hold i {
+    color: var(--red-color);
+}
+.files-page .statistics .green .icon-hold {
+    background-color: #22c55e41;
+}
+.files-page .statistics .green .icon-hold i {
+    color: #22c55e;
+}
+.files-page .statistics .orange .icon-hold {
+    background-color: #f59f0b36;
+}
+.files-page .statistics .orange .icon-hold i {
+    color: var(--orange-color);
+}
+.files-page .statistics .s-box .text p {
+    font-weight: 500;
+}
+/* End files */
