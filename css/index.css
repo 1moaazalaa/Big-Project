@@ -1280,7 +1280,7 @@ input {
 /* End friends */
 /* start files */
 .files-page {
-    grid-template-columns: repeat(auto-fill , minmax(220px ,1fr));
+    grid-template-columns: repeat(auto-fill , minmax(200px ,1fr));
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -1330,7 +1330,9 @@ input {
     color: var(--orange-color);
 }
 .files-page .statistics .s-box .text p {
-    font-weight: 500;
     font-weight: bold;
+}
+.files-page .statistics {
+    width: 250px;
 }
 /* End files */
